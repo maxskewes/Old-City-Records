@@ -1,13 +1,17 @@
-.header {
-    width:100%;
-    color: white;
-    font-family: 'Nowharehouse', Courier, monospace;
-  };
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+};
 
-.banner { 
-position: relative; /* To help the image + text element to get along with the rest of the page*/ 
-width: 100%; /* for IE 6 */ 
-} ;
+.header {
+  position: absolute;
+  width:100%;
+  color: white;
+  font-family: 'Nowharehouse', Courier, monospace;
+};
+
 
 h2 
 { 
