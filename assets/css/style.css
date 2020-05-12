@@ -1,32 +1,32 @@
 .header {
     width:100%;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Nowharehouse', Courier, monospace;
   };
 
-  .banner 
-{ 
+.banner { 
 position: relative; /* To help the image + text element to get along with the rest of the page*/ 
 width: 100%; /* for IE 6 */ 
-} 
+} ;
+
 h2 
 { 
 position: absolute; /* To place the text on the image*/
 top: 100px; /* The exact location of the text from the top of the image*/
-left: 0; /* Other beautification stuff */
+left: 200px; /* Other beautification stuff */
 width: 100%; 
-}
-/* Coloring time */
-h2 span /* decorating the text within the span tag */
-{ 
 color:black; 
-font: bold 45px "Nowharehouse", Sans-Serif; 
+font: "Nowharehouse", Sans-Serif; 
 letter-spacing: 0px; 
-}
+};
 
 .homeLink {
-  
-}
+
+};
+
+.releasesLink {
+
+};
 
 
 
