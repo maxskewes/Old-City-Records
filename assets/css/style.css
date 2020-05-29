@@ -1,29 +1,20 @@
-/**
-* Template Name: Green - v2.0.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mom'sTypewriter", "FF Trixie", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #5cb874;
+  color: #3a3a3a;
 }
 
 a:hover {
-  color: #80c792;
+  color: #ff0000;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nowharehouse", sans-serif;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -45,13 +36,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5cb874;
-  color: #fff;
+  background: #777777;
+  color: rgb(255, 255, 255);
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #6ec083;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -59,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fbfbfb;
+  background: #000000;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -71,16 +62,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444444;
+  color: #777777;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #5cb874;
+  color: #ff0000;
 }
 
 #topbar .contact-info i {
-  color: #5cb874;
+  color: #777777;
   padding-right: 4px;
 }
 
@@ -97,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #5cb874;
+  color: #ff0000;
 }
 
 #topbar .social-links a:first-child {
@@ -108,9 +99,9 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background-image: url("../img/header.png");
   transition: all 0.5s;
-  z-index: 997;
+  width: 100%;
   padding: 20px 0;
   top: 40px;
 }
@@ -131,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5cb874;
+  color: #ffffff;
 }
 
 #header .logo img {
