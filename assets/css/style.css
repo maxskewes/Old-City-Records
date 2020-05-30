@@ -114,27 +114,25 @@ h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#logo{
+  max-width: 200px;
+  position: fixed;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+}
+
 #header {
   background-image: url("../img/header.png");
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 0px 0;
   top: 40px;
 }
 
 #header.header-scrolled {
   top: 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -146,6 +144,10 @@ h4, h5, h6 {
 }
 
 #header {
+  color: #ff0000;
+}
+
+#header a:hover {
   color: #ff0000;
 }
 
@@ -618,11 +620,11 @@ section {
   margin: 20px;
 }
 
-.services{
+.releases{
   background: black;
 }
 
-.services .icon-box {
+.releases .icon-box {
   text-align: center;
   padding: 20px 20px 20px 20px;
   transition: all ease-in-out 0.3s;
@@ -630,7 +632,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
-.services .icon-box .icon {
+.releases .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -641,13 +643,13 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.releases .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.releases .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
@@ -658,26 +660,132 @@ section {
   fill: #e100ff;
 }
 
-.services .icon-box h4 {
+.releases .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.releases .icon-box h4 a {
   color: #000000;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.releases .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.releases .icon-box:hover {
   border-color: rgb(255, 0, 221);
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+/*--------------------------------------------------------------
+# Bands
+--------------------------------------------------------------*/
+.bands .member {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.bands .member img {
+  max-width: 90%;
+  margin: 0 0 30px 0;
+}
+
+.bands .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.bands .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.bands .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.bands .member .social {
+  margin-top: 15px;
+}
+
+.bands .member .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+
+.bands .member .social a:hover {
+  color: #5cb874;
+}
+
+.bands .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/*--------------------------------------------------------------
+# Shows
+--------------------------------------------------------------*/
+.shows .member {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.shows .member img {
+  max-width: 90%;
+  margin: 0 0 30px 0;
+}
+
+.shows .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.shows .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.shows .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.shows .member .social {
+  margin-top: 15px;
+}
+
+.shows .member .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+
+.shows .member .social a:hover {
+  color: #5cb874;
+}
+
+.shows .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
 
 /*--------------------------------------------------------------
@@ -733,9 +841,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Bands
+# Tour
 --------------------------------------------------------------*/
-.team .member {
+.tour .member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
@@ -743,48 +851,116 @@ section {
   background: #fff;
 }
 
-.team .member img {
-  max-width: 60%;
-  border-radius: 50%;
+.tour .member img {
+  max-width: 90%;
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
+.tour .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.team .member span {
+.tour .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member p {
+.tour .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
 
-.team .member .social {
+.tour .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.tour .member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.tour .member .social a:hover {
   color: #5cb874;
 }
 
-.team .member .social i {
+.tour .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
+
+*--------------------------------------------------------------
+# Releases
+--------------------------------------------------------------*/
+.merchImg {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.merch{
+  background: black;
+}
+
+.merch .icon-box {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+}
+
+.merch .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.merch .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.merch .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.merch .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #e100ff;
+}
+
+.merch .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.merch .icon-box h4 a {
+  color: #000000;
+  transition: ease-in-out 0.3s;
+}
+
+.merch .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.merch .icon-box:hover {
+  border-color: rgb(255, 0, 221);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 
 /*--------------------------------------------------------------
 # Contact
