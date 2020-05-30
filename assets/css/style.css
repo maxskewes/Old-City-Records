@@ -124,6 +124,7 @@ h4, h5, h6 {
 
 #header {
   background-image: url("../img/header.png");
+  width: 100%;
   transition: all 0.5s;
   z-index: 997;
   padding: 0px 0;
@@ -780,7 +781,7 @@ section {
 }
 
 .shows .member .social a:hover {
-  color: #5cb874;
+  color: #ff0000;
 }
 
 .shows .member .social i {
@@ -1285,7 +1286,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #090909;
+  background: #000000;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1332,12 +1333,4 @@ section {
   background: #449d5b;
   color: #fff;
   text-decoration: none;
-}
-
-#footer .copyright {
-  margin: 0 0 5px 0;
-}
-
-#footer .credits {
-  font-size: 13px;
 }
